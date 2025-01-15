@@ -1,16 +1,17 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "A bit About Gidan.NG",
+  "text": "At Gidan.nG, our vision stems from years of firsthand experience in the housing sector—as tenants, property managers, and property owners.",
+
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "Seamless Tenant Experience",
+      "content": "Imagine moving into a new home and using our app to unlock everything you need. With a secure tenancy code, you can access vital details about your apartment, report issues directly to the property manager, and much more—all in one place.",
+      "icon": "house-icon.png"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "Effortless Property Management",
+      "content": "For property owners, our platform provides a convenient way to remotely manage and monitor all your properties with ease and efficiency..",
+      "icon": "key-icon.png"
     }
   ]
 }

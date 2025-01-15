@@ -4,7 +4,7 @@ export default function validate(values: validateProps) {
   let errors = {} as validateProps;
 
   if (!values.name) {
-    errors.name = "Name is required";
+    errors.name = "Fullname is required";
   }
   if (!values.email) {
     errors.email = "Email address is required";

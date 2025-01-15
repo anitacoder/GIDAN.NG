@@ -47,23 +47,24 @@ const Footer = ({ t }: { t: TFunction }) => {
 
   return (
     <>
-      <FooterSection>
+<FooterSection id="Footer">
         <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
+              <Language>{t("Contact Us")}</Language>
               <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
+                {t(`Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa
+magna derita valies darta donna mare fermentum iaculis eu non diam
+phasellus..`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
-              </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/">{t("Application Security")}</Large>
-              <Large to="/">{t("Software Principles")}</Large>
+              <Title>{t("Useful Links")}</Title>
+              <Large to="/">{t("Home")}</Large>
+              <Large to="/">{t("About Us")}</Large>
+              <Large to="/">{t("Services")}</Large>
+              <Large to="/">{t("Terms of service")}</Large>
+              <Large to="/">{t("Privacy policy")}</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
@@ -75,36 +76,32 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>A108 Adam Street</Para>
+              <Para>New York NY 535022</Para>
+              <Para>United States</Para>
+              <Para>Phone: +1 5589 55488 55</Para>
+              <Para>Email: info@example.com</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large to="/">{t("About")}</Large>
-              <Large to="/">{t("Blog")}</Large>
-              <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large>
+              <Title>{t("Our Services")}</Title>
+              <Large to="/">{t("Web Design")}</Large>
+              <Large to="/">{t("Web Development")}</Large>
+              <Large to="/">{t("Product Management")}</Large>
+              <Large to="/">{t("Marketing")}</Large>
+              <Large to="/">{t("Graphic Design")}</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>
                 <LanguageSwitch onClick={() => handleChange("en")}>
                   <SvgIcon
-                    src="united-states.svg"
+                    src="nigeria-icon.png"
                     aria-label="homepage"
                     width="30px"
                     height="30px"
                   />
                 </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
-                  <SvgIcon
-                    src="spain.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
+
               </LanguageSwitchContainer>
             </Col>
           </Row>
@@ -119,42 +116,31 @@ const Footer = ({ t }: { t: TFunction }) => {
           >
             <NavLink to="/">
               <LogoContainer>
-                <SvgIcon
-                  src="logo.svg"
-                  aria-label="homepage"
-                  width="101px"
-                  height="64px"
-                />
+                <h1>Gidan.NG</h1>
               </LogoContainer>
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
+                href="#"
+                src="x-icon.avif"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
+                href="#"
+                src="facebook-icon.png"
               />
               <SocialLink
                 href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
+                src="instagram-icon.png"
               />
               <SocialLink
                 href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
+                src="linkedin.svg"
               />
               <a
                 href="https://ko-fi.com/Y8Y7H8BNJ"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  height="36"
-                  style={{ border: 0, height: 36 }}
-                  src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
-                  alt="Buy Me a Coffee at ko-fi.com"
-                />
               </a>
             </FooterContainer>
           </Row>

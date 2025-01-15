@@ -1,4 +1,121 @@
 {
   "title": "That's about it!",
-  "text": "If you are familiar with React, or SPA frameworks in general, there shouldn't be any confusing parts about this template. if not, you can always reach out to me and I'll try me best to answer your questions."
+  "text": "If you are familiar with property management platforms, navigating this tool will be straightforward. If you need assistance, feel free to reach out, and I'll gladly help with any questions.",
+  "contact": {
+    "heading": "Join the waiting list",
+    "sections": [
+      {
+        "title": "Call Us",
+        "icon": "call-icon.png",
+        "contactNumbers": [
+          "+1 5589 55488 55",
+          "+1 6678 254445 41"
+        ]
+      },
+      {
+        "title": "Email Us",
+        "icon": "email-icon.png",
+        "emails": [
+          "info@example.com",
+          "contact@example.com"
+        ]
+      }
+    ]
+  },
+  "form": {
+    "fields": [
+      {
+        "label": "Full Name",
+        "type": "text",
+        "id": "fullName",
+        "name": "fullName",
+        "required": true
+      },
+      {
+        "label": "Email Address",
+        "type": "email",
+        "id": "email",
+        "name": "email",
+        "required": true
+      },
+      {
+        "label": "Phone Number",
+        "type": "text",
+        "id": "phoneNumber",
+        "name": "phoneNumber",
+        "pattern": "^\\d{11}$",
+        "placeholder": "080****",
+        "required": true
+      },
+      {
+        "label": "State of Residence",
+        "type": "select",
+        "id": "state",
+        "name": "state",
+        "required": true,
+        "options": [
+          { "value": "", "text": "Select State" },
+          { "value": "abia", "text": "Abia" },
+          { "value": "adamawa", "text": "Adamawa" },
+          { "value": "akwa-ibom", "text": "Akwa Ibom" },
+          { "value": "anambra", "text": "Anambra" },
+          { "value": "bauchi", "text": "Bauchi" },
+          { "value": "bayelsa", "text": "Bayelsa" },
+          { "value": "benue", "text": "Benue" },
+          { "value": "borno", "text": "Borno" },
+          { "value": "cross-river", "text": "Cross River" },
+          { "value": "delta", "text": "Delta" },
+          { "value": "ebonyi", "text": "Ebonyi" },
+          { "value": "edo", "text": "Edo" },
+          { "value": "ekiti", "text": "Ekiti" },
+          { "value": "enugu", "text": "Enugu" },
+          { "value": "gombe", "text": "Gombe" },
+          { "value": "imo", "text": "Imo" },
+          { "value": "jigawa", "text": "Jigawa" },
+          { "value": "kaduna", "text": "Kaduna" },
+          { "value": "kano", "text": "Kano" },
+          { "value": "katsina", "text": "Katsina" },
+          { "value": "kebbi", "text": "Kebbi" },
+          { "value": "kogi", "text": "Kogi" },
+          { "value": "kwara", "text": "Kwara" },
+          { "value": "lagos", "text": "Lagos" },
+          { "value": "nasarawa", "text": "Nasarawa" },
+          { "value": "niger", "text": "Niger" },
+          { "value": "ogun", "text": "Ogun" },
+          { "value": "ondo", "text": "Ondo" },
+          { "value": "osun", "text": "Osun" },
+          { "value": "oyo", "text": "Oyo" },
+          { "value": "plateau", "text": "Plateau" },
+          { "value": "rivers", "text": "Rivers" },
+          { "value": "sokoto", "text": "Sokoto" },
+          { "value": "taraba", "text": "Taraba" },
+          { "value": "yobe", "text": "Yobe" },
+          { "value": "zamfara", "text": "Zamfara" },
+          { "value": "fct", "text": "Federal Capital Territory (FCT)" }
+        ]
+      },
+      {
+        "label": "What role do you play in the real-estate world?",
+        "type": "select",
+        "id": "role",
+        "name": "role",
+        "required": true,
+        "options": [
+          { "value": "", "text": "Select..." },
+          { "value": "tenant", "text": "Tenant" },
+          { "value": "property-manager", "text": "Property Manager" },
+          { "value": "property-owner", "text": "Property Owner" }
+        ]
+      },
+      {
+        "label": "(Not Tenant) Properties Owned Managed",
+        "type": "number",
+        "id": "properties",
+        "name": "properties",
+        "min": 1,
+        "max": 90,
+        "required": true
+      }
+    ]
+  }
 }

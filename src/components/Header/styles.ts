@@ -9,6 +9,11 @@ export const HeaderSection = styled("header")`
     align-items: center;
     text-align: center;
   }
+
+  .header-text {
+    font-size: 2.1rem;
+    margin-bottom: -33px;
+  }
 `;
 
 export const LogoContainer = styled(Link)`

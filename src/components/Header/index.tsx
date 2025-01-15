@@ -33,18 +33,18 @@ const Header = ({ t }: { t: TFunction }) => {
     };
     return (
       <>
+       <CustomNavLinkSmall onClick={() => {}}> 
+        <Span>{t("Home")}</Span>
+      </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("about")}>
           <Span>{t("About")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
-        </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
+          <Span>{t("Property")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
+          onClick={() => scrollTo("Footer")}
         >
           <Span>
             <Button>{t("Contact")}</Button>
@@ -59,7 +59,7 @@ const Header = ({ t }: { t: TFunction }) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+            <h1 className="header-text">Gidan.NG</h1>
           </LogoContainer>
           <NotHidden>
             <MenuItem />
